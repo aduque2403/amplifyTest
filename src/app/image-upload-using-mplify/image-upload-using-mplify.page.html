@@ -1,0 +1,9 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Image Upload Using Amplify</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <amplify-photo-picker path="pics" (picked)="onImagePicked($event)" (loaded)="onImageLoaded($event)"></amplify-photo-picker>
+</ion-content>

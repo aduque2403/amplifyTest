@@ -1,0 +1,7 @@
+{
+  "name": "amplifyTest",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
